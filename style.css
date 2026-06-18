@@ -1,0 +1,170 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* left-right center */
+  align-items: center;
+  background-color: #f4e5d8;
+  margin: 5em;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  margin: 0 auto;
+}
+
+h1{
+    margin-top:1em;
+    margin-bottom: 0.5em;
+    color:hsl(24, 5%, 18%);
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.card{
+  width: 44em;
+  max-width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 2em;
+  border:none;
+  border-radius: 1em;
+}
+
+.header-img{
+  width: max(100%, 20em);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border:none;
+  border-radius: 1em;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5em;
+    margin-top: 1.5em;
+    border:none;
+    border-radius: 1em;
+}
+
+.preparation ul{
+    list-style: disc;
+    padding-left: 1.25em;
+    padding-top: 0.5em;
+    margin: 0;
+}
+
+.preparation li{
+    list-style-position: outside;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.preparation li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  font-size: 16px;}
+
+.preparation h3{
+    font-family: 'Outfit', sans-serif;
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.ingredients{
+    padding-top: 2em;
+    font-size: 16px;
+}
+.ingredients-list ul{
+    list-style: disc;
+    padding-left: 1.25em;
+    padding-top: 0.5em;
+    margin: 0;
+    font-size: 16px;
+}
+
+.ingredients-list li{
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 15px;}
+
+.section-divider{
+    margin: 2em 0;
+}
+
+hr{
+    display: block;
+    height: 0;
+    border: none;
+    border-top: 1px solid hsl(0, 0%, 80%);
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.instructions li{
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    font-size: 16px;
+}
+
+.instructions ol{
+    list-style: decimal;
+    padding-left: 1.25em;
+    padding-top: 0.5em;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nutrition p {
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition td {
+  padding: 18px 35px;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutrition tr:last-child td {
+  border-bottom: none;
+}
